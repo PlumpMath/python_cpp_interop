@@ -19,18 +19,18 @@ Steps to run this example
 4. Follow Windows-specific part of the instructions in protobuf-2.5.0\python\README.txt.
    Essentially you have to run the following steps:
 
-      python setup.py build
+         python setup.py build
       
-      python setup.py install
+         python setup.py install
       
-      python setup.py test
+         python setup.py test
 
     This compile and installs protobuf module so that you can use it later from your Python scripts.
     Note that protoc.exe has to be placed under protobuf-2.5.0\python, because it is used by setup.py script.
 
 5. Run the 'use_library.py' script
 
-      python use_library.py
+         python use_library.py
 
    This script uses native_library.dll to calculate square root of some numbers.
    Google protocol buffers are used to pass the numbers into the library.
@@ -57,6 +57,6 @@ Steps to recompile 'messages.proto'
 1. Download and unpack https://protobuf.googlecode.com/files/protoc-2.5.0-win32.zip
 2. Run the following command from cmd (windows command prompt)
 
-   protoc.exe --cpp_out=native_library --python_out=. messages.proto
+         protoc.exe --cpp_out=native_library --python_out=. messages.proto
 
 The resulting files are native_library/messages.pb.h, native_library/messages.pb.cc, and messages_pb2.py.
