@@ -16,9 +16,8 @@ Steps to run this example
 
 3. Download and unpack protoc.exe from https://protobuf.googlecode.com/files/protoc-2.5.0-win32.zip
 
-4. Follow instructions in protobuf-2.5.0\python\README.txt to build and install python on windows.
-
-   Basically you should run three steps:
+4. Follow Windows-specific part of the instructions in protobuf-2.5.0\python\README.txt.
+   Essentially you have to run the following steps:
 
       python setup.py build
       
@@ -26,6 +25,7 @@ Steps to run this example
       
       python setup.py test
 
+    This compile and installs protobuf module so that you can use it later from your Python scripts.
     Note that protoc.exe has to be placed under protobuf-2.5.0\python, because it is used by setup.py script.
 
 5. Run the 'use_library.py' script
