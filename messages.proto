@@ -1,0 +1,7 @@
+message Request {
+  repeated int32 value = 1;
+}
+
+message Response {
+  repeated float value = 1;
+}
