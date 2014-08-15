@@ -17,7 +17,9 @@ Steps to run this example
    Basically you should run three steps:
 
       python setup.py build
+      
       python setup.py install
+      
       python setup.py test
 
     Note that protoc.exe has to be placed under protobuf-2.5.0\python, because it is used by setup.py script.
